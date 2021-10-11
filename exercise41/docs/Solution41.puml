@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Solution41{
++{static} main()
++addNamesToList(ArrayList<String> names, Scanner input): ArrayList<String> names
++sortNamesInList(ArrayList<String> names): ArrayList<String> names
+-printSortedNamesToFile(ArrayList<String> names)
+}
+
+@enduml
