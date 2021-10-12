@@ -3,9 +3,12 @@
 
 class Solution41{
 +{static} main()
-+addNamesToList(ArrayList<String> names, Scanner input): ArrayList<String> names
-+sortNamesInList(ArrayList<String> names): ArrayList<String> names
--printSortedNamesToFile(ArrayList<String> names)
+}
+class NameSorter{
++addNamesToList(List<String> names, Scanner input): List<String>
++sortNamesInList(List<String> names): List<String>
++printSortedNamesToFile(List<String> names)
 }
 
+Solution41 --o NameSorter
 @enduml

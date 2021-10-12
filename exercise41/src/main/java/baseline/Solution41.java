@@ -13,7 +13,7 @@ public class Solution41{
 
     public static void main(String[] args) {
         try {
-            Solution41 app = new Solution41();
+            NameSorter ns = new NameSorter();
             File nameList = new File("data/exercise41_input.txt");
             Scanner input = new Scanner(nameList);
 
@@ -21,13 +21,13 @@ public class Solution41{
             ArrayList<String> names = new ArrayList<>();
 
             //call a public method to add the names to the ArrayList
-            names = (ArrayList<String>) app.addNamesToList(names, input);
+            names = (ArrayList<String>) ns.addNamesToList(names, input);
 
             //call a public method to sort the names in the ArrayList
-            names = (ArrayList<String>) app.sortNamesInList(names);
+            names = (ArrayList<String>) ns.sortNamesInList(names);
 
             //call a private method to output the sorted ArrayList to the output file
-            app.printSortedNamesToFile(names);
+            ns.printSortedNamesToFile(names);
 
             //print that the file was successfully opened and written to
             System.out.println("Successfully wrote to file");
@@ -38,38 +38,5 @@ public class Solution41{
         }
     }
 
-    public List<String> addNamesToList(List<String> names, Scanner input){
-        //while loop to parse the file and add the names to the arraylist
-        while(input.hasNextLine()){
-            String data = input.nextLine();
-            names.add(data);
-        }
-        return names;
-    }
 
-    public List<String> sortNamesInList(List<String> names){
-        //sort the arraylist alphabetically and return it
-        Collections.sort(names);
-        return names;
-    }
-
-    private void printSortedNamesToFile(List<String> names){
-        int nameCount = 0;
-        //for loop to count how many names are in the array
-        for (int i = 0; i < names.size(); i++){
-            nameCount++;
-        }
-        try {
-            //try to create a new file and print the number of names + the sorted list of names to the file
-            try (PrintWriter output = new PrintWriter("data/exercise41_output.txt")) {
-                output.printf("Total of %d names%n----------------------%n", nameCount);
-                for (String name : names) {
-                    output.println(name);
-                }
-            }
-            //catch an exception for not creating the file successfully
-        } catch (FileNotFoundException e) {
-            System.out.println("File not created error");
-        }
-    }
 }

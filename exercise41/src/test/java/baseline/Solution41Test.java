@@ -6,6 +6,7 @@ package baseline;
 
 import org.junit.jupiter.api.Test;
 
+import javax.naming.Name;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.lang.reflect.Array;
@@ -16,8 +17,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class Solution41Test {
 
+    NameSorter test = new NameSorter();
 
-    Solution41 test = new Solution41();
     @Test
     void addNamesToList() throws FileNotFoundException {
         File nameList = new File("data/exercise41_input.txt");
