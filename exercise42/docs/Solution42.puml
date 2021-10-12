@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Solution42{
++main()
+-createOutput(ArrayList<ArrayList<String>> data)
+}
+class FileParser{
++getFile(String fileName): File csv
++convertCSVtoString(File csv): ArrayList<ArrayList<String>> data
+
+}
+
+@enduml
