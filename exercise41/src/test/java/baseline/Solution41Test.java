@@ -8,7 +8,11 @@ import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.Objects;
 import java.util.Scanner;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -62,5 +66,18 @@ class Solution41Test {
         for(int i = 0; i < expected.size(); i++){
             assertEquals(expected.get(i), actual.get(i));
         }
+    }
+
+    @Test
+    void printSortedNamesToFile() throws IOException {
+        File nameList = new File("data/exercise41_input.txt");
+        Scanner input = new Scanner(nameList);
+        ArrayList<String> names = new ArrayList<>();
+        names = (ArrayList<String>) test.addNamesToList(names, input);
+        names = (ArrayList<String>) test.sortNamesInList(names);
+        test.printSortedNamesToFile(names);
+        String outputActual = Files.readString(Path.of("data/exercise41_output.txt"));
+        String outputExpected = Files.readString(Path.of("data/exercise41_expectedOutput.txt"));
+        assertEquals(outputActual, outputExpected);
     }
 }
