@@ -19,6 +19,14 @@ class FileParserTest {
     FileParser testParser = new FileParser();
 
     @Test
+    void getFile() throws IOException {
+        FileParser testParser = new FileParser();
+        FileReader actual = testParser.getFile("data/exercise42_TestInput.txt");
+        FileReader expected = new FileReader("data/exercise42_input.txt");
+        assertEquals(expected.read(), actual.read());
+    }
+
+    @Test
     void convertCSVtoStrings() throws IOException {
         FileReader reader = testParser.getFile("data/exercise42_input.txt");
         List<List<String>> actualData;
