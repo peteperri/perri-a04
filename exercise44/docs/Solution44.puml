@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/class-diagram
+
++class Solution44{
++{static} void main()
+}
+
++class ProductParser{
++Map<String, Product> parseProducts()
+}
+
++class Product{
+-final String name
+-final double price
+-final int quantity
++Product(String name, double price, int quantity)
++String getName()
++String toString()
+}
+
++class Interactor{
++String promptUser(): returns String user enters
++Product getProduct(Map<String, Product> inventory, String input)
+}
+
+Solution44 -- ProductParser
+Solution44 -- Interactor
+Solution44 -- Product
+ProductParser -- Product
+
+
+
+@enduml

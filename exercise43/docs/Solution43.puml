@@ -14,7 +14,7 @@ class SiteBuilder{
 -final boolean cssFolder
 -final String SITE_FOLDER_NAME
 
-+SiteBuilder(String siteName, String author, boolean jsFolder, boolean cssFolder
++SiteBuilder(String siteName, String author, boolean jsFolder, boolean cssFolder)
 +void buildWebsite()
 -void createHTMLFile(String contents)
 -void createFolder(String name)
