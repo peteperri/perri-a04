@@ -13,7 +13,6 @@ public class FileParser {
 
     public FileReader getFile(String fileName) throws FileNotFoundException {
         //return a new FileReader object that takes the fileName as a parameter
-        //no test because it is just getting input from the user
         return new FileReader(fileName);
     }
 

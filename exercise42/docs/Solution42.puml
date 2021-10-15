@@ -2,7 +2,7 @@
 'https://plantuml.com/class-diagram
 
 class Solution42{
-+main()
++{static} main()
 -createOutput(ArrayList<ArrayList<String>> data)
 }
 class FileParser{
@@ -10,5 +10,5 @@ class FileParser{
 +convertCSVtoString(File csv): ArrayList<ArrayList<String>> data
 
 }
-
+Solution42 -- FileParser
 @enduml
