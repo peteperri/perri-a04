@@ -1,2 +1,18 @@
-package baseline;public class Solution45 {
+package baseline;
+
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class Solution45 {
+    public static void main(String[] args) throws FileNotFoundException {
+        Scanner input = new Scanner(System.in);
+        System.out.println("What's the name of the output file?");
+        String outputFileName = input.nextLine();
+
+        //create an instance of the WordReplacer object
+        WordReplacer replacer = new WordReplacer("data/", outputFileName);
+
+        //call the replaceWord() method
+        replacer.replaceWord("utilize", "use");
+    }
 }
