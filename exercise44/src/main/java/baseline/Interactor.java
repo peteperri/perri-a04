@@ -7,16 +7,21 @@ import java.util.Scanner;
 //be confusing given that "interface" means something in java already
 public class Interactor {
 
-    //method to prompt the user for a product name and return their entry
+    //private method to prompt the user for a product name and return their entry
     public String promptUser() {
         Scanner input = new Scanner(System.in);
         System.out.println("What is the product name?");
         return input.nextLine();
     }
 
-    //method that, while true, calls promptUser
+    //method that returns the product from the right key, or null if that product doesn't exist
     public Product getProduct(Map<String, Product> inventory, String input){
-
-        }
+            if(inventory.containsKey(input)){
+                return inventory.get(input);
+            }
+            else{
+                System.out.println("Sorry, that product was not found in our inventory.");
+            }
+        return null;
     }
 }
