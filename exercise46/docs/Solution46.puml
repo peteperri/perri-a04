@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Solution46{
++ {static} void main
+}
+
+class HistogramMaker{
+-final String filePath
+
++HistogramMaker(String filePath)
++String makeHistogram()
+-ArrayList<String> parseFile()
+-Map<String, Integer> createMap(List<String> words)
+-List<Map.Entry<String, Integer>> sortMap(Map<String, Integer> map)
+-String createOutputString(List<Map.Entry<String, Integer>> listOfMapEntries)
+}
+
+Solution46 -- HistogramMaker
+@enduml
