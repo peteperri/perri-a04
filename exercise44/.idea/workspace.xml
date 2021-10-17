@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9335cc4d-6665-49c4-a5fd-a87fade1fb60" name="Changes" comment="" />
+    <list default="true" id="9335cc4d-6665-49c4-a5fd-a87fade1fb60" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../exercise41/.idea/sonarlint/issuestore/6/9/694f65e530d5b2fb98e4de14f1b79a6938344c28" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise46/data/testInput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise46/src/test/java/baseline/HistogramMakerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise41/.idea/sonarlint/issuestore/2/3/23dda7932a7257896ad81c0fdf8406363173685a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise41/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise41/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise41/docs/Solution41.puml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise41/docs/Solution41.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise41/src/test/java/baseline/Solution41Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise41/src/test/java/baseline/NameSorterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise42/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise42/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise43/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise43/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a473735c3a42f3c7d23e934f648e67df54c3444" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2d3617360c0e8681702bcc5d3fb4a2704f5b2f7d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43e033d2779a437892e1ffd37444954a58e63a84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/5676d33988a7837e51cdc0053ae342b6acfeacb9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5ed8bc95bcdb167ab4dfbdf85c9a8ea80c8aa4ce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2fe0da1448d68cbfa846783869fc23a113ce35b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c736c9134e5d466d773115b2dcc9b22c0a7bfded" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db6f787332b40b069e175dd7a8c49378aa1a738d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/2/e/2ecfc98b96b42b96175164392cad7f7b573910bd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/7/e/7e18b8f624be772d4d2319e73601cb0e022171c9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/9/3/930df785fc4f733673c8d64b44a3787ba0f9d87d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise45/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise46/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise46/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise46/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise46/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise46/src/main/java/baseline/HistogramMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise46/src/main/java/baseline/HistogramMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise46/src/main/java/baseline/Solution46.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise46/src/main/java/baseline/Solution46.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +119,7 @@
       <recent name="baseline" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.InteractorTest">
+  <component name="RunManager" selected="Gradle.ProductTest">
     <configuration name="Solution44" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baseline.Solution44" />
       <module name="exercise44.main" />
@@ -191,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ProductTest" />
+        <item itemvalue="Gradle.ProductParserTest" />
         <item itemvalue="Gradle.InteractorTest" />
         <item itemvalue="Application.Solution44" />
-        <item itemvalue="Gradle.ProductParserTest" />
         <item itemvalue="Gradle.ProductParserTest.parseProducts" />
-        <item itemvalue="Gradle.ProductTest" />
       </list>
     </recent_temporary>
   </component>

@@ -5,9 +5,9 @@ class Solution41{
 +{static} main()
 }
 class NameSorter{
-+addNamesToList(List<String> names, Scanner input): List<String>
-+sortNamesInList(List<String> names): List<String>
-+printSortedNamesToFile(List<String> names)
++List<String> addNamesToList(List<String> names, Scanner input)
++List<String> sortNamesInList(List<String> names)
++void printSortedNamesToFile(List<String> names)
 }
 
 Solution41 --o NameSorter

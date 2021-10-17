@@ -16,7 +16,7 @@ import java.util.Scanner;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class Solution41Test {
+class NameSorterTest {
 
     NameSorter test = new NameSorter();
 
