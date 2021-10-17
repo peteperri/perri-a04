@@ -1,3 +1,7 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 4 Solutions
+ *  Copyright 2021 Peter Perri
+ */
 package baseline;
 
 import java.io.File;
@@ -61,7 +65,6 @@ public class WordReplacer {
     }
 
     private void writeFile() throws FileNotFoundException {
-
         //create a new File in the same directory as the input File
         File output = new File(filePath + outputFileName + ".txt");
 

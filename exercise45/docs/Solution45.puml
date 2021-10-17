@@ -7,8 +7,9 @@ class Solution45{
 
 class WordReplacer{
 -ArrayList<String> sentence
--String filePath
--String outputFileName
+-final String inputFileName
+-final String filePath
+-final String outputFileName
 +WordReplacer(String filePath, String outputFileName)
 +void replaceWord(String replacedWord, String replaceWith)
 -ArrayList<String> readFile()

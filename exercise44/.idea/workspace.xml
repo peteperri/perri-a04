@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9335cc4d-6665-49c4-a5fd-a87fade1fb60" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseline/InteractorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseline/ProductParserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseline/ProductTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/Interactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/Interactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/ProductParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/ProductParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/Solution44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/Solution44.java" afterDir="false" />
-    </list>
+    <list default="true" id="9335cc4d-6665-49c4-a5fd-a87fade1fb60" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,6 +220,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
